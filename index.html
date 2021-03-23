@@ -28,7 +28,7 @@
 		});
 		$('button').eq(0).click(function(){
 				if(!$('input').val()){
-					confirm("没有填写内容")
+					alert('还没有填写内容');
 				}else{
 					$('ol').prepend('<li>'+'<span>'+d+'</span>'+$('input').val()+'</li>')
 					$('input').val('')
